@@ -42,6 +42,9 @@
                 configSource: cnfInput,
             }
         },
+		created() {
+			this.init(this.frameCnf, this.configSource, this.paramKey)
+		},
         methods: {
             click(e) {
                 let hideTxt = Function.$mapping.HIDE_DOM
