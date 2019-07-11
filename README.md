@@ -1,2 +1,1 @@
-# vue-jiess-demo
-vue-jiess-admin框架的demo示例
+基于jiess-cli脚手架的拓展示例
